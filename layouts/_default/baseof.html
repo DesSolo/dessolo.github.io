@@ -9,6 +9,7 @@
   {{ $style := $sass | toCSS $opts | minify | fingerprint }}
   <link rel="stylesheet" href="/css/custom.css">
   <link rel="stylesheet" href="{{ $style.Permalink }}">
+  {{ partial "yandex-metrika.html" . }}
 </head>
 <html lang="{{ .Site.LanguageCode }}" data-mode="{{ .Site.Params.themeMode }}">
   {{ partial "head.html" . }}

@@ -4,6 +4,8 @@ author = "DesSolo"
 
 themeMode = "dark"
 
+yandexMetrikaID = "106840093"
+
 [assets]
   # Self-hosted static assets, default to false. If true, the assets will be hosted on your own server.
   self_host = false
